@@ -55,7 +55,7 @@ const handleLoadVideos = async (categoryID) => {
  
 
     <div class="card p-4  bg-base-100 shadow-xl">
-        <figure><img src="${videos?.thumbnail}" alt="Shoes" /></figure>
+        <figure><img class="rounded-sm w-full  h-[280px]" src="${videos?.thumbnail}" alt="Shoes" /></figure>
        <div  class="flex items-center" >
 <div class="flex items-center">
     <img class="rounded-full w-[40px] h-[40px]" src="${videos?.authors[0]?.profile_picture}" alt="">
